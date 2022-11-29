@@ -21,8 +21,9 @@ yarn add @typeform/embed-react
 
 
 ## Using Typeform Embed Library
-[Documention](https://developer.typeform.com/embed/vanilla/)
-Example found in [widget.tsx](https://github.com/Keesh-style/typeform-poc/blob/main/components/typeform/widget.tsx)
+#[Documention](https://developer.typeform.com/embed/vanilla/)\n
+
+Example found in [components/typeform/widget.tsx](https://github.com/Keesh-style/typeform-poc/blob/main/components/typeform/widget.tsx)
 
 Using import:
 ```javascript
@@ -68,7 +69,7 @@ export const Widget = ({
 
 [Callback events](https://developer.typeform.com/embed/callbacks/):
 - onReady
-    - Fired when form is loade
+    - Fired when form is loaded
 - onSubmit
     - Fired when submit button is pressed, can access response ID
 - onClose
@@ -78,8 +79,6 @@ export const Widget = ({
 - onHeightChanged
     - Fired when display question height changes
 
-## Deploy on Vercel
+## Using Typeform Embed-React Library
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

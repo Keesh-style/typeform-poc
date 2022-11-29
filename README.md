@@ -1,14 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Installing Typeform
 
 First, run the development server:
 
 ```bash
-npm run dev
+npm install --save @typeform/embed
 # or
-yarn dev
+yarn add @typeform/embed
 ```
+- This library is to use typeform embed using vanilla Javascript, hence more customisability, including callbacks
+
+or
+
+```bash
+npm install @typeform/embed-react --save
+# or
+yarn add @typeform/embed-react
+```
+- This library makes use of the embed lib but is the official way to use it in a React project. Does not have as much customisability as the vanillia version.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

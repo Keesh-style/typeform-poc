@@ -25,11 +25,11 @@ yarn add @typeform/embed-react
 Example found in [widget.tsx](https://github.com/Keesh-style/typeform-poc/blob/main/components/typeform/widget.tsx)
 
 Using import:
-```bash
+```javascript
 import { createWidget, WidgetOptions } from "@typeform/embed";
 ```
 
-```bash
+```javascript
 export const Widget = ({
   id,
   style = {},

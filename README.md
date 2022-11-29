@@ -21,7 +21,7 @@ yarn add @typeform/embed-react
 
 
 ## Using Typeform Embed Library
-#[Documention](https://developer.typeform.com/embed/vanilla/)\n
+# [Documention](https://developer.typeform.com/embed/vanilla/)
 
 Example found in [components/typeform/widget.tsx](https://github.com/Keesh-style/typeform-poc/blob/main/components/typeform/widget.tsx)
 

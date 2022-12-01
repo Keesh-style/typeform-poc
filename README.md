@@ -25,7 +25,6 @@ yarn add @typeform/embed-react
 
 Example found in [components/typeform/widget.tsx](https://github.com/Keesh-style/typeform-poc/blob/main/components/typeform/widget.tsx)
 
-Using import:
 ```javascript
 import { createWidget, WidgetOptions } from "@typeform/embed";
 ```
@@ -80,5 +79,28 @@ export const Widget = ({
     - Fired when display question height changes
 
 ## Using Typeform Embed-React Library
+### [Documention](https://developer.typeform.com/embed/react/)
 
+Example found in [components/typeform/widget.tsx](https://github.com/Keesh-style/typeform-poc/blob/main/components/typeform/typeform.tsx)
+
+```javascript
+import { Widget } from "@typeform/embed-react";
+```
+```javascript
+const idText:string ="ed1e1LGH"
+
+function Typeform() {
+  const widgetContainerStyle = {
+    width: 500,
+    height: 400,
+    margin: "20px auto",
+  };
+
+  return (
+    <Widget id={idText} style={widgetContainerStyle} className="my-form" />
+  );
+}
+```
+- Embed React library allows for typeform to be used as a more straightforward component with the only information needed is the form id
+- Does not allow for callbacks to be used
 

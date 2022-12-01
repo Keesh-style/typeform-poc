@@ -1,6 +1,6 @@
 import React, { CSSProperties, useEffect, useRef } from 'react'
 import { Widget } from "@typeform/embed-react";
-import '@typeform/embed/build/css/widget.css';
+
 
 const idText:string ="ed1e1LGH"
 
